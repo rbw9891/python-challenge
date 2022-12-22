@@ -14,8 +14,8 @@ with open(budget_csv, "r") as csvfile:
 
         csvreader = csv.reader(csvfile, delimiter=",")
 
-        # skips first row (header) of csv
-        next(csvreader)
+        # stores header in variable and skips
+        header = next(csvreader)
 
         for col in csvreader:
 
