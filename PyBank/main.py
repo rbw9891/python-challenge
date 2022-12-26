@@ -7,7 +7,7 @@ from statistics import mean
 months = []
 profit_loss = []
  
-# read csv
+# file path
 budget_csv = os.path.join("resources", "budget_data.csv")
 
 with open(budget_csv, "r") as csvfile:
@@ -54,7 +54,7 @@ print(f"Greatest Decrease in Profits: {months[(total_changes.index(min(total_cha
 
 
 # export txt file with same results
-output_txt = os.path.join("analysis.txt")
+output_txt = os.path.join("analysis", "analysis_pybank.txt")
 
 with open(output_txt, "w") as txtfile:
 
@@ -73,4 +73,3 @@ with open(output_txt, "w") as txtfile:
     txtfile.write(f"Greatest Decrease in Profits: {months[(total_changes.index(min(total_changes)))+1]} (${min(total_changes)})")
 
     
-# make look nice in command line
