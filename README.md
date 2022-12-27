@@ -6,14 +6,24 @@ Here lies the repository for Module 3 homework, python-challenge
 
 ### PyBank
 
-    analysis folder containing output txt file
+    - analysis folder containing output txt file
 
-    resources folder containing original csv file
+    - resources folder containing original csv file
 
-    ```python
-    main.py
-    ```
+    - main.py
     
+### PyPoll
 
-PyPoll
+    - analysis folder containing output txt file
+
+    - resources folder containing original csv file
+
+    - main.py
+
+This README
+
+## Repository Link
+
+https://github.com/rbw9891/python-challenge
+
 
